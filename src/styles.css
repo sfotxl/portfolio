@@ -56,3 +56,15 @@
   color: yellow;
   height: 100vh;
 }
+
+h1 {
+  color: yellow;
+}
+
+p {
+  color: white;
+}
+/* 
+.grid {
+  margin-left: 10px;
+} */

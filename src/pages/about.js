@@ -1,5 +1,6 @@
 import Header from '../components/header';
 import '../styles.css';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -7,7 +8,10 @@ const About = () => {
       <Header />
       <div className='content'>
         <h1>About Me</h1>
-        <div>This is the about page.</div>
+        <p>
+          I recently graduated with honors from the Full Stack Web + Mobile
+          Development bootcamp at Nucamp (August 2022).
+        </p>
       </div>
     </div>
   );
